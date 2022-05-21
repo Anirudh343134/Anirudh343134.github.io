@@ -1,0 +1,275 @@
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.top {
+    display:flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(46, 46, 45);
+    justify-content: end;
+    margin:0ch;
+}
+
+.topbutton {
+    color:white;
+    transition-duration:500ms;
+    background-color: rgb(46, 46, 45);
+    border:0ch;
+    padding: 6px;
+}
+
+.topbutton:hover {
+    color:rgb(77, 76, 74);
+    cursor:pointer;
+}
+
+.second-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.left {
+    display:inline-flex;
+    justify-self: start;
+    width: 33%;
+}
+
+.mid {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-left: 0
+}
+
+.list-item {
+    height: fit-content;
+    list-style: none;
+    margin: 0;
+    padding: 16px 28px 0;
+    white-space: nowrap;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.right {
+    display: inline-flex;
+    justify-self: end;
+    justify-content: end;
+    transition-duration: 300ms;
+}
+
+.list-item:hover {
+    color: rgb(60, 179, 230);
+    cursor: pointer;
+}
+
+.logo {
+    background-color: white;
+    border: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.banner {
+    background: url(https://static.gopro.com/assets/blta2b8522e5372af40/blt6862d37d168d9354/6267fedff8819866142d7ff0/h10-q2-promo-sa-1920-2x.jpg?width=1920&quality=80&auto=webp&disable=upscale);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 850px;
+}
+
+.container {
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 75px;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.text-1 {
+    font-family: Sohne Briet,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 47px;
+    color: white;
+}
+
+.text-2 {
+    margin-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.shop {
+    background-color: black;
+    color: white;
+    transition-duration: 50ms;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.shop:hover {
+    width: 175px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#second{
+    display:inline-flex;
+    height: 600px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 100px;
+    padding-bottom:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left-side {
+    flex: 1 1 0;
+}
+
+.right-side {
+    flex: 1 1 0;
+}
+
+#r {
+    justify-self: end;
+}
+
+#b {
+    color: black;
+    font-stretch: expanded;
+    margin-bottom: 5px;
+    padding-bottom: none;
+}
+
+.bold {
+    font-weight: large;
+}
+
+#small {
+    color: black;
+    font-size: large;
+    padding-top: none;
+    font-weight: lighter;
+}
+
+#smaller {
+    color: black;
+    font-weight: 200;
+}
+
+.thin {
+    font-weight: 500;
+    color: black;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottom-1 {
+    background-color:rgb(77, 76, 74);
+    margin-top: 150px;
+    height: 100px;
+    padding-left: 35px;
+    display: flex;
+    padding-right: 25px;
+}
+
+.text-container {
+    flex: 1 1 0;
+}
+
+#w {
+    font-size:larger;
+    margin-bottom: none;
+    margin-top: 35px;
+}
+
+.email-container {
+    flex: 1 1 0;
+    padding-top: 35px;
+}
+
+.signup {
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+#lower-margin {
+    margin-top: auto;
+}
+
+.logo-container {
+    padding-top: 20px;
+    justify-self: end;
+}
+
+.logo-container:hover {
+    cursor: pointer;
+}
+
+.text-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size:medium;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-container {
+    background-color: black;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.list-container {
+    padding:none;
+    margin:none;
+}
+
+.list-head {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+}
+
+.footer-list {
+    color: white;
+    font-size: medium;
+    padding:0;
+    list-style-type: none;
+}
+
+.footer-item {
+    margin-bottom: 20px;
+    transition-duration: 300ms;;
+}
+
+.footer-item:hover {
+    color:rgb(77, 76, 74);
+    cursor: pointer;
+}
